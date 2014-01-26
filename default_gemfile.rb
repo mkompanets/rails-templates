@@ -14,7 +14,6 @@ gem_group :development, :test do
 end
 
 gem_group :test do
-  gem 'rspec-rails'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'guard-spring'

@@ -9,12 +9,12 @@ gem_group :development, :test do
   gem 'rspec-rails'
   gem 'guard-livereload'
   gem 'spring'
+  gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 gem_group :test do
   gem 'rspec-rails'
-  gem 'factory_girl_rails'
-  gem 'faker'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'guard-spring'
